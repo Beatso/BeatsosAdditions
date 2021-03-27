@@ -1,9 +1,9 @@
 {
 	"textures": {
-		"particle": "#side",
+		"particle": "#bottom",
 		"bottom": "minecraft:block/smooth_stone",
 		"north": "beatsosadditions:block/smooth_stone_stairs_north",
-			"south": "beatsosadditions:block/smooth_stone_stairs_south"
+		"south": "beatsosadditions:block/smooth_stone_stairs_south"
 	},
 	"elements": [
 		{   "from": [ 0, 0, 0 ],
