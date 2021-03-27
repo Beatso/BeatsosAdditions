@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "beatsosadditions",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Beatso's Additions",
+  "description": "Enhances the vanilla game by adding small features in the original style.",
   "authors": [
-    "Me!"
+    "Beatso"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.beatso.tk/",
+    "sources": "https://github.com/Beatso/BeatsosAdditions"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "Apache-2.0",
+  "icon": "assets/beatsosadditions/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "tk.beatso.beatsos.additions.BeatsosAdditions"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "beatsosadditions.mixins.json"
   ],
 
   "depends": {
