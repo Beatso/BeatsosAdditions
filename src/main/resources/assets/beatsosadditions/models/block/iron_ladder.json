@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/ladder",
+    "textures": {
+        "particle": "beatsosadditions:block/iron_ladder",
+        "texture": "beatsosadditions:block/iron_ladder"
+    }
+}
