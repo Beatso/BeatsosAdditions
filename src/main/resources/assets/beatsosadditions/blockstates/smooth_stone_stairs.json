@@ -42,7 +42,7 @@
 		"uvlock": true
 	  },
 	  "facing=east,half=top,shape=straight": {
-		"model": "beatsosadditions:block/smooth_stone_stairs",
+		"model": "beatsosadditions:block/smooth_stone_stairs_top",
 		"x": 180,
 		"uvlock": true
 	  },
@@ -94,7 +94,7 @@
 		"uvlock": true
 	  },
 	  "facing=north,half=top,shape=straight": {
-		"model": "beatsosadditions:block/smooth_stone_stairs",
+		"model": "beatsosadditions:block/smooth_stone_stairs_top",
 		"x": 180,
 		"y": 270,
 		"uvlock": true
@@ -145,7 +145,7 @@
 		"uvlock": true
 	  },
 	  "facing=south,half=top,shape=straight": {
-		"model": "beatsosadditions:block/smooth_stone_stairs",
+		"model": "beatsosadditions:block/smooth_stone_stairs_top",
 		"x": 180,
 		"y": 90,
 		"uvlock": true
@@ -200,7 +200,7 @@
 		"uvlock": true
 	  },
 	  "facing=west,half=top,shape=straight": {
-		"model": "beatsosadditions:block/smooth_stone_stairs",
+		"model": "beatsosadditions:block/smooth_stone_stairs_top",
 		"x": 180,
 		"y": 180,
 		"uvlock": true
