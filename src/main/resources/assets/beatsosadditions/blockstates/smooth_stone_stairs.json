@@ -31,12 +31,12 @@
 		"uvlock": true
 	  },
 	  "facing=east,half=top,shape=outer_left": {
-		"model": "beatsosadditions:block/smooth_stone_stairs_outer",
+		"model": "beatsosadditions:block/smooth_stone_stairs_outer_top",
 		"x": 180,
 		"uvlock": true
 	  },
 	  "facing=east,half=top,shape=outer_right": {
-		"model": "beatsosadditions:block/smooth_stone_stairs_outer",
+		"model": "beatsosadditions:block/smooth_stone_stairs_outer_top",
 		"x": 180,
 		"y": 90,
 		"uvlock": true
@@ -83,13 +83,13 @@
 		"uvlock": true
 	  },
 	  "facing=north,half=top,shape=outer_left": {
-		"model": "beatsosadditions:block/smooth_stone_stairs_outer",
+		"model": "beatsosadditions:block/smooth_stone_stairs_outer_top",
 		"x": 180,
 		"y": 270,
 		"uvlock": true
 	  },
 	  "facing=north,half=top,shape=outer_right": {
-		"model": "beatsosadditions:block/smooth_stone_stairs_outer",
+		"model": "beatsosadditions:block/smooth_stone_stairs_outer_top",
 		"x": 180,
 		"uvlock": true
 	  },
@@ -133,13 +133,13 @@
 		"uvlock": true
 	  },
 	  "facing=south,half=top,shape=outer_left": {
-		"model": "beatsosadditions:block/smooth_stone_stairs_outer",
+		"model": "beatsosadditions:block/smooth_stone_stairs_outer_top",
 		"x": 180,
 		"y": 90,
 		"uvlock": true
 	  },
 	  "facing=south,half=top,shape=outer_right": {
-		"model": "beatsosadditions:block/smooth_stone_stairs_outer",
+		"model": "beatsosadditions:block/smooth_stone_stairs_outer_top",
 		"x": 180,
 		"y": 180,
 		"uvlock": true
@@ -188,13 +188,13 @@
 		"uvlock": true
 	  },
 	  "facing=west,half=top,shape=outer_left": {
-		"model": "beatsosadditions:block/smooth_stone_stairs_outer",
+		"model": "beatsosadditions:block/smooth_stone_stairs_outer_top",
 		"x": 180,
 		"y": 180,
 		"uvlock": true
 	  },
 	  "facing=west,half=top,shape=outer_right": {
-		"model": "beatsosadditions:block/smooth_stone_stairs_outer",
+		"model": "beatsosadditions:block/smooth_stone_stairs_outer_top",
 		"x": 180,
 		"y": 270,
 		"uvlock": true
