@@ -1,0 +1,32 @@
+{
+	"parent": "beatsosadditions:recipes/root",
+	"rewards": {
+	  "recipes": [
+		"beatsosadditions:iron_ladder"
+	  ]
+	},
+	"criteria": {
+	  "has_iron_ingot": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_ingot"
+          }
+        ]
+		}
+	  },
+	  "has_the_recipe": {
+		"trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "beatsosadditions:iron_ladder"
+      }
+	  }
+	},
+	"requirements": [
+	  [
+      "has_iron_ingot",
+      "has_the_recipe"
+	  ]
+	]
+}
