@@ -14,6 +14,7 @@ public class BeatsosAdditionsBlocks {
 
 	public static final StairsBlockExtend SMOOTH_STONE_STAIRS = new StairsBlockExtend(Blocks.SMOOTH_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SMOOTH_STONE));
 	public static final LadderBlockExtend IRON_LADDER = new LadderBlockExtend(FabricBlockSettings.copyOf(Blocks.LADDER));
+	public static final CarvedPumpkinBlockExtend SOUL_JACK_O_LANTERN = new CarvedPumpkinBlockExtend(FabricBlockSettings.copyOf(Blocks.PUMPKIN));
 
 	public static final void blocks() {
 		
@@ -23,6 +24,9 @@ public class BeatsosAdditionsBlocks {
 		Registry.register(Registry.BLOCK, new Identifier("beatsosadditions", "iron_ladder"), IRON_LADDER);
 		Registry.register(Registry.ITEM, new Identifier("beatsosadditions", "iron_ladder"), new BlockItem(IRON_LADDER, new Item.Settings().group(ItemGroup.DECORATIONS)));
 		BlockRenderLayerMap.INSTANCE.putBlock(IRON_LADDER, RenderLayer.getCutout());
+
+		Registry.register(Registry.BLOCK, new Identifier("beatsosadditions", "soul_jack_o_lantern"), SOUL_JACK_O_LANTERN);
+		Registry.register(Registry.ITEM, new Identifier("beatsosadditions", "soul_jack_o_lantern"), new BlockItem(SOUL_JACK_O_LANTERN, new Item.Settings().group(ItemGroup.DECORATIONS)));
 
 	}
 }
