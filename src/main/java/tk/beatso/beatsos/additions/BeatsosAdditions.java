@@ -2,6 +2,7 @@ package tk.beatso.beatsos.additions;
 
 import net.fabricmc.api.ModInitializer;
 import tk.beatso.beatsos.additions.block.BeatsosAdditionsBlocks;
+import tk.beatso.beatsos.additions.item.BeatsosAdditionsItems;
 
 public class BeatsosAdditions implements ModInitializer {
 
@@ -11,6 +12,7 @@ public class BeatsosAdditions implements ModInitializer {
 		System.out.println("Hello Fabric world!");
 
 		BeatsosAdditionsBlocks.blocks();
+		BeatsosAdditionsItems.items();
 
 	}
 }
