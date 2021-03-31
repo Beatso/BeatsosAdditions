@@ -10,6 +10,8 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
+import tk.beatso.beatsos.additions.block.blockextends.*;
+
 public class BeatsosAdditionsBlocks {
 
 	public static final StairsBlockExtend SMOOTH_STONE_STAIRS = new StairsBlockExtend(Blocks.SMOOTH_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SMOOTH_STONE));

@@ -1,4 +1,4 @@
-package tk.beatso.beatsos.additions.block;
+package tk.beatso.beatsos.additions.block.blockextends;
 
 import net.minecraft.block.LadderBlock;
 
