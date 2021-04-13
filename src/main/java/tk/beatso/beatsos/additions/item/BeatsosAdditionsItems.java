@@ -12,14 +12,12 @@ public class BeatsosAdditionsItems {
 	// settings
 	public static final Item.Settings MISC = new Item.Settings().group(ItemGroup.MISC);
 
-	// public static final Item SOUL_MEAL = new SoulMealItemExtend(MISC);
-	// public static final Item SOUL_DUST = new Item(new FabricItemSettings().group(ItemGroup.MISC));
-	// public static final Item SOUL_DUST = new Item(MISC);
+	public static Item SOUL_MEAL;
+	public static Item SOUL_DUST;
 
 	public static final void items() {
 		
-		Registry.register(Registry.ITEM, new Identifier(BeatsosAdditions.MOD_ID, "soul_meal"), new SoulMealItemExtend(MISC));
-		Registry.register(Registry.ITEM, new Identifier(BeatsosAdditions.MOD_ID, "soul_dust"), new Item(MISC));
-
+		SOUL_MEAL = Registry.register(Registry.ITEM, new Identifier(BeatsosAdditions.MOD_ID, "soul_meal"), new SoulMealItemExtend(MISC));
+		SOUL_DUST = Registry.register(Registry.ITEM, new Identifier(BeatsosAdditions.MOD_ID, "soul_dust"), new Item(MISC));
 	}
 }

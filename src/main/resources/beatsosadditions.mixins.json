@@ -4,6 +4,7 @@
   "package": "tk.beatso.beatsos.additions.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "BrewingRecipeRegistryMixin"
   ],
   "client": [
     "ExampleMixin"
