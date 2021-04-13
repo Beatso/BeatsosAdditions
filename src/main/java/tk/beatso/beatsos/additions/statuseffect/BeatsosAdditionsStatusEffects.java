@@ -1,8 +1,8 @@
-package tk.beatso.beatsos.additions.statuseffects;
+package tk.beatso.beatsos.additions.statuseffect;
 
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import tk.beatso.beatsos.additions.statuseffects.effects.SturdinessStatusEffect;
+import tk.beatso.beatsos.additions.statuseffect.effects.SturdinessStatusEffect;
 
 public class BeatsosAdditionsStatusEffects {
 
