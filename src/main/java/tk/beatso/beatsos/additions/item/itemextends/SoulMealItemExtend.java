@@ -27,7 +27,8 @@ public class SoulMealItemExtend extends Item {
 		if (!world.isClient) {
 
 			BlockPos pos = context.getBlockPos();
-			if (world.getBlockState(pos).getBlock().getTranslationKey().equals("block.minecraft.jack_o_lantern")) {
+
+			if (world.getBlockState(pos).isOf(Registry.BLOCK.get(new Identifier("minecraft", "jack_o_lantern")))) {
 
 			context.getStack().decrement(1);
 				
@@ -40,7 +41,7 @@ public class SoulMealItemExtend extends Item {
 				);
 
 				world.playSound(null, pos, SoundEvents.ENTITY_PARROT_IMITATE_WITHER_SKELETON, SoundCategory.BLOCKS, 1f, 1f);
-				world.addParticle(ParticleTypes.EXPLOSION_EMITTER, pos.getX(), pos.getY(), pos.getZ(), 0.0D, 0.0D, 0.0D);
+				world.addParticle(ParticleTypes.EXPLOSION_EMITTER, pos.getX(), pos.getY(), pos.getZ(), 1.0D, 0.0D, 0.0D);
 				
 				return ActionResult.success(true);
 

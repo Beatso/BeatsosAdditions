@@ -1,6 +1,11 @@
 {
+
 	"block.beatsosadditions.smooth_stone_stairs": "Smooth Stone Stairs",
 	"block.beatsosadditions.iron_ladder": "Iron Ladder",
 	"block.beatsosadditions.soul_jack_o_lantern": "Soul Jack o'Lantern",
-	"item.beatsosadditions.soul_meal": "Soul Meal"
+
+	"item.beatsosadditions.soul_meal": "Soul Meal",
+
+	"effect.beatsosadditions.sturdiness": "Sturdiness"
+	
 }
