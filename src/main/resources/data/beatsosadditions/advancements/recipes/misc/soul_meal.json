@@ -1,0 +1,32 @@
+{
+	"parent": "beatsosadditions:recipes/root",
+	"rewards": {
+	  "recipes": [
+		  "beatsosadditions:soul_meal"
+	  ]
+	},
+	"criteria": {
+	  "has_bone_meal": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "items": [
+        {
+          "item": "minecraft:bone_meal"
+        }
+		  ]
+		}
+	  },
+	  "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "beatsosadditions:soul_meal"
+        }
+	  }
+	},
+	"requirements": [
+	  [
+      "has_bone_meal",
+      "has_the_recipe"
+	  ]
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:bone_meal"
+		},
+		{
+			"item": "beatsosadditions:soul_dust"
+		}
+	],
+	"result": {
+		"item": "beatsosadditions:soul_meal",
+		"count": 1
+	}
+}
