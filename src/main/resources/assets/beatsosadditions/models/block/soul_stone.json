@@ -1,0 +1,6 @@
+{
+  "parent": "beatsoadditions:block/cube_all",
+  "textures": {
+    "all": "beatsoadditions:block/soul_stone"
+  }
+}
