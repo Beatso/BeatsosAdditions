@@ -1,4 +1,4 @@
-package tk.beatso.beatsos.additions.statuseffects.effects;
+package tk.beatso.beatsos.additions.statuseffect.effects;
 
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;

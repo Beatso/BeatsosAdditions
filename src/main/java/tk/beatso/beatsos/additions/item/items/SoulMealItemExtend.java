@@ -1,4 +1,4 @@
-package tk.beatso.beatsos.additions.item.itemextends;
+package tk.beatso.beatsos.additions.item.items;
 
 import net.minecraft.block.HorizontalFacingBlock;
 import net.minecraft.item.Item;
