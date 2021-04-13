@@ -7,11 +7,11 @@ import tk.beatso.beatsos.additions.statuseffect.BeatsosAdditionsStatusEffects;
 
 public class BeatsosAdditions implements ModInitializer {
 
+	public static final String MOD_ID = "beatsosadditions";
+
 	@Override
 	public void onInitialize() {
 		
-		System.out.println("Hello Fabric world!");
-
 		BeatsosAdditionsBlocks.blocks();
 		BeatsosAdditionsItems.items();
 		BeatsosAdditionsStatusEffects.effects();
