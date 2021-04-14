@@ -18,8 +18,8 @@ public class BeatsosAdditionsStatusEffects {
 		Registry.register(Registry.STATUS_EFFECT, new Identifier(BeatsosAdditions.MOD_ID, "sturdiness"), SturdinessStatusEffect.STURDINESS);
 
 		Registry.register(Registry.POTION, new Identifier(BeatsosAdditions.MOD_ID, "sturdiness"), STURDINESS_POTION);
-		Registry.register(Registry.POTION, new Identifier(BeatsosAdditions.MOD_ID, "sturdiness"), STURDINESS_POTION_LONG);
-		Registry.register(Registry.POTION, new Identifier(BeatsosAdditions.MOD_ID, "sturdiness"), STURDINESS_POTION_STRONG);
+		Registry.register(Registry.POTION, new Identifier(BeatsosAdditions.MOD_ID, "sturdiness_long"), STURDINESS_POTION_LONG);
+		Registry.register(Registry.POTION, new Identifier(BeatsosAdditions.MOD_ID, "sturdiness_strong"), STURDINESS_POTION_STRONG);
 
 	}
 
