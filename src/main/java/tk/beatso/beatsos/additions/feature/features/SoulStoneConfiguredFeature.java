@@ -23,7 +23,7 @@ public class SoulStoneConfiguredFeature {
 		.configure(new OreFeatureConfig(
 			(new TagMatchRuleTest(BlockTags.SOUL_FIRE_BASE_BLOCKS)),
 			BeatsosAdditionsBlocks.SOUL_STONE.getDefaultState(),
-			24
+			20 // size
 		))
 		.decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(
 			0,
@@ -31,7 +31,7 @@ public class SoulStoneConfiguredFeature {
 			127
 		)))
 		.spreadHorizontally()
-		.repeat(60);
+		.repeat(16); // abundance
 	
 	public static void init() {
 		RegistryKey<ConfiguredFeature<?, ?>> soulStoneConfiguredFeature = RegistryKey.of(Registry.CONFIGURED_FEATURE_WORLDGEN, new Identifier(BeatsosAdditions.MOD_ID, "soul_stone_configured_feature"));
