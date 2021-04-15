@@ -14,7 +14,7 @@ import tk.beatso.beatsos.additions.statuseffect.effects.SturdinessStatusEffect;
 public class SoulStoneBlock extends Block {
 
 	public SoulStoneBlock() {
-		super(FabricBlockSettings.copy(Blocks.STONE));
+		super(FabricBlockSettings.copyOf(Blocks.STONE));
 	}
 
 	public void onSteppedOn(World world, BlockPos pos, Entity entity) {
