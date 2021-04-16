@@ -1,6 +1,6 @@
 {
-  "parent": "beatsoadditions:block/cube_all",
+  "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "beatsoadditions:block/soul_stone"
+    "all": "beatsosadditions:block/soul_stone"
   }
 }
