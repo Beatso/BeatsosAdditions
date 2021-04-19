@@ -7,6 +7,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
+import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import tk.beatso.beatsos.additions.statuseffect.effects.SturdinessStatusEffect;
@@ -22,8 +23,14 @@ public class SoulStoneBlock extends Block {
 		if (entity instanceof LivingEntity && entity.age % 40 == 0) {
 
 			LivingEntity livingEntity = ((LivingEntity) entity);
+			Double currentMaxHealth = livingEntity.getAttributeValue(EntityAttributes.GENERIC_MAX_HEALTH);
 
-			if (livingEntity.getAttributeValue(EntityAttributes.GENERIC_MAX_HEALTH) > 6.0D && !livingEntity.hasStatusEffect(SturdinessStatusEffect.STURDINESS)) {
+			if (currentMaxHealth > 6.0D && !livingEntity.hasStatusEffect(SturdinessStatusEffect.STURDINESS)) {
+
+				Double newMaxHealth = currentMaxHealth - 2.0D;
+
+				if (livingEntity.getHealth() > newMaxHealth)
+					livingEntity.damage(DamageSource.HOT_FLOOR, (float)(livingEntity.getHealth() - newMaxHealth));
 
 				livingEntity.getAttributeInstance(EntityAttributes.GENERIC_MAX_HEALTH).addPersistentModifier(new EntityAttributeModifier("1146f672-aaa6-4c70-b601-5c99d0a00efd", -2.0D, EntityAttributeModifier.Operation.ADDITION));
 
