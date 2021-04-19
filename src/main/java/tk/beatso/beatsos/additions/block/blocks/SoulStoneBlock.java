@@ -23,7 +23,7 @@ public class SoulStoneBlock extends Block {
 
 			LivingEntity livingEntity = ((LivingEntity) entity);
 
-			if (livingEntity.getAttributeValue(EntityAttributes.GENERIC_MAX_HEALTH) > 2.0D && !livingEntity.hasStatusEffect(SturdinessStatusEffect.STURDINESS)) {
+			if (livingEntity.getAttributeValue(EntityAttributes.GENERIC_MAX_HEALTH) > 6.0D && !livingEntity.hasStatusEffect(SturdinessStatusEffect.STURDINESS)) {
 
 				livingEntity.getAttributeInstance(EntityAttributes.GENERIC_MAX_HEALTH).addPersistentModifier(new EntityAttributeModifier("1146f672-aaa6-4c70-b601-5c99d0a00efd", -2.0D, EntityAttributeModifier.Operation.ADDITION));
 
