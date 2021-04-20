@@ -36,7 +36,7 @@ public class SoulMealItem extends Item {
 			);
 			world.playSound(null, blockPos, SoundEvents.ENTITY_PARROT_IMITATE_WITHER_SKELETON, SoundCategory.BLOCKS, 1f, 1f);
 		} else {
-			world.addParticle(ParticleTypes.HAPPY_VILLAGER, (double)blockPos.getX() + 0.5D, (double)blockPos.getY() + 1.5D, (double)blockPos.getZ() + 0.5D, 0.0D, 0.0D, 0.0D);
+			world.addParticle(ParticleTypes.SOUL, (double)blockPos.getX() + 0.5D, (double)blockPos.getY() + 1.5D, (double)blockPos.getZ() + 0.5D, 0.0D, 0.0D, 0.0D);
 		}
 	}
 
