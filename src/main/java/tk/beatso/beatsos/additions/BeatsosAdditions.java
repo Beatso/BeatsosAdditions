@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import tk.beatso.beatsos.additions.block.BeatsosAdditionsBlocks;
 import tk.beatso.beatsos.additions.feature.BeatsosAdditionsFeatures;
 import tk.beatso.beatsos.additions.item.BeatsosAdditionsItems;
+import tk.beatso.beatsos.additions.item.items.SoulMealItem;
 import tk.beatso.beatsos.additions.statuseffect.BeatsosAdditionsStatusEffects;
 
 public class BeatsosAdditions implements ModInitializer {
@@ -17,6 +18,8 @@ public class BeatsosAdditions implements ModInitializer {
 		BeatsosAdditionsItems.items();
 		BeatsosAdditionsStatusEffects.effects();
 		BeatsosAdditionsFeatures.features();
+
+		SoulMealItem.initialize();
 
 	}
 }
