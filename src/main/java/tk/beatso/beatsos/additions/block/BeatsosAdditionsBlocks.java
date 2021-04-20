@@ -19,7 +19,7 @@ public class BeatsosAdditionsBlocks {
 
 	public static final StairsBlockExtend SMOOTH_STONE_STAIRS = new StairsBlockExtend(Blocks.SMOOTH_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SMOOTH_STONE));
 	public static final LadderBlockExtend IRON_LADDER = new LadderBlockExtend(FabricBlockSettings.copyOf(Blocks.LADDER));
-	public static final CarvedPumpkinBlockExtend SOUL_JACK_O_LANTERN = new CarvedPumpkinBlockExtend(FabricBlockSettings.copyOf(Blocks.PUMPKIN));
+	public static final CarvedPumpkinBlockExtend SOUL_JACK_O_LANTERN = new CarvedPumpkinBlockExtend(FabricBlockSettings.copyOf(Blocks.JACK_O_LANTERN));
 	public static final SoulStoneBlock SOUL_STONE = new SoulStoneBlock();
 
 	public static final void blocks() {
