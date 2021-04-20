@@ -25,7 +25,7 @@ public class SoulMealItem extends Item {
 		super(new Item.Settings().group(ItemGroup.MISC));
 	}
 
-	public static void corruptJackOLantern(World world, BlockPos blockPos) {
+	private static void corruptJackOLantern(World world, BlockPos blockPos) {
 		if (!world.isClient) {
 			world.setBlockState(
 				blockPos,
