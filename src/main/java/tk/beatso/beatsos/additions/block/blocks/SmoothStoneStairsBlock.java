@@ -16,11 +16,13 @@ public class SmoothStoneStairsBlock extends StairsBlock {
 		super(Blocks.SMOOTH_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SMOOTH_STONE));
 	}
 
-	public static void register(SmoothStoneStairsBlock block) {
+	public static SmoothStoneStairsBlock register() {
 		Identifier id = new Identifier(BeatsosAdditions.MOD_ID, "smooth_stone_stairs");
+		SmoothStoneStairsBlock block = new SmoothStoneStairsBlock();
 		final BlockItem blockItem = new BlockItem(block, new Item.Settings().group(ItemGroup.DECORATIONS));
 		Registry.register(Registry.BLOCK, id, block);
 		Registry.register(Registry.ITEM, id, blockItem);
+		return block;
 	}
 	
 }

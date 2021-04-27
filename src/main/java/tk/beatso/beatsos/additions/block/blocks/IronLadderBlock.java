@@ -18,12 +18,14 @@ public class IronLadderBlock extends LadderBlock {
 		super(FabricBlockSettings.copyOf(Blocks.LADDER));
 	}
 
-	public static void register(IronLadderBlock block) {
+	public static IronLadderBlock register() {
 		Identifier id = new Identifier(BeatsosAdditions.MOD_ID, "iron_ladder");
+		IronLadderBlock block = new IronLadderBlock();
 		final BlockItem blockItem = new BlockItem(block, new Item.Settings().group(ItemGroup.DECORATIONS));
 		Registry.register(Registry.BLOCK, id, block);
 		Registry.register(Registry.ITEM, id, blockItem);
 		BlockRenderLayerMap.INSTANCE.putBlock(block, RenderLayer.getCutout());
+		return block;
 	}
 
 }

@@ -15,11 +15,13 @@ public class SoulJackOLanternBlock extends CarvedPumpkinBlock {
 		super(FabricBlockSettings.copyOf(Blocks.JACK_O_LANTERN));
 	}
 
-	public static void register(SoulJackOLanternBlock block) {
+	public static SoulJackOLanternBlock register() {
 		Identifier id = new Identifier(BeatsosAdditions.MOD_ID, "soul_jack_o_lantern");
+		SoulJackOLanternBlock block = new SoulJackOLanternBlock();
 		final BlockItem blockItem = new BlockItem(block, new Item.Settings().group(ItemGroup.DECORATIONS));
 		Registry.register(Registry.BLOCK, id, block);
 		Registry.register(Registry.ITEM, id, blockItem);
+		return block;
 	}
 
 }

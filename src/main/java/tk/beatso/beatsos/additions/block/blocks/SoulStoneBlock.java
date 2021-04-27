@@ -24,11 +24,13 @@ public class SoulStoneBlock extends Block {
 		super(FabricBlockSettings.copyOf(Blocks.STONE));
 	}
 
-	public static void register(SoulStoneBlock block) {
+	public static SoulStoneBlock register() {
 		Identifier id = new Identifier(BeatsosAdditions.MOD_ID, "soul_stone");
+		SoulStoneBlock block = new SoulStoneBlock();
 		final BlockItem blockItem = new BlockItem(block, new Item.Settings().group(ItemGroup.DECORATIONS));
 		Registry.register(Registry.BLOCK, id, block);
 		Registry.register(Registry.ITEM, id, blockItem);
+		return block;
 	}
 
 	public void onSteppedOn(World world, BlockPos pos, Entity entity) {
