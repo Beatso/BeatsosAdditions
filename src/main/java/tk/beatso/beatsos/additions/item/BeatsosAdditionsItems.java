@@ -2,9 +2,7 @@ package tk.beatso.beatsos.additions.item;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
-import tk.beatso.beatsos.additions.BeatsosAdditions;
+import tk.beatso.beatsos.additions.item.items.SoulDustItem;
 import tk.beatso.beatsos.additions.item.items.SoulMealItem;
 
 public class BeatsosAdditionsItems {
@@ -17,7 +15,7 @@ public class BeatsosAdditionsItems {
 
 	public static final void items() {
 		
-		SOUL_MEAL = Registry.register(Registry.ITEM, new Identifier(BeatsosAdditions.MOD_ID, "soul_meal"), new SoulMealItem(SOUL_MEAL));
-		SOUL_DUST = Registry.register(Registry.ITEM, new Identifier(BeatsosAdditions.MOD_ID, "soul_dust"), new Item(MISC));
+		SOUL_MEAL = SoulMealItem.register();
+		SOUL_DUST = SoulDustItem.register();
 	}
 }

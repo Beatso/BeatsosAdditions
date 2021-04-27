@@ -21,8 +21,12 @@ import tk.beatso.beatsos.additions.BeatsosAdditions;
 
 public class SoulMealItem extends Item {
 
-	public SoulMealItem(Item item) {
+	public SoulMealItem() {
 		super(new Item.Settings().group(ItemGroup.MISC));
+	}
+
+	public static SoulDustItem register() {
+		return Registry.register(Registry.ITEM, new Identifier(BeatsosAdditions.MOD_ID, "soul_meal"), new SoulDustItem());
 	}
 
 	private static void corruptJackOLantern(World world, BlockPos blockPos) {
