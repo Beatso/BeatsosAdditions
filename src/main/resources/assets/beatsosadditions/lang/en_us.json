@@ -11,6 +11,15 @@
 
 	"item.minecraft.potion.effect.sturdiness": "Potion of Sturdiness",
 	"item.minecraft.potion.effect.sturdiness_long": "Potion of Sturdiness",
-	"item.minecraft.potion.effect.sturdiness_strong": "Potion of Sturdiness"
+	"item.minecraft.potion.effect.sturdiness_strong": "Potion of Sturdiness",
+	"item.minecraft.splash_potion.effect.sturdiness": "Splash Potion of Sturdiness",
+	"item.minecraft.splash_potion.effect.sturdiness_long": "Splash Potion of Sturdiness",
+	"item.minecraft.splash_potion.effect.sturdiness_strong": "Splash Potion of Sturdiness",
+	"item.minecraft.lingering_potion.effect.sturdiness": "Lingering Potion of Sturdiness",
+	"item.minecraft.lingering_potion.effect.sturdiness_long": "Lingering Potion of Sturdiness",
+	"item.minecraft.lingering_potion.effect.sturdiness_strong": "Lingering Potion of Sturdiness",
+	"item.minecraft.tipped_arrow.effect.sturdiness": "Arrow of Sturdiness",
+	"item.minecraft.tipped_arrow.effect.sturdiness_long": "Arrow of Sturdiness",
+	"item.minecraft.tipped_arrow.effect.sturdiness_strong": "Arrow of Sturdiness"
 	
 }
