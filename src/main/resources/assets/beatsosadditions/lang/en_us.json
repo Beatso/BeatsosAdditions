@@ -7,6 +7,10 @@
 
 	"item.beatsosadditions.soul_meal": "Soul Meal",
 
-	"effect.beatsosadditions.sturdiness": "Sturdiness"
+	"effect.beatsosadditions.sturdiness": "Sturdiness",
+
+	"item.minecraft.potion.effect.sturdiness": "Potion of Sturdiness",
+	"item.minecraft.potion.effect.sturdiness_long": "Potion of Sturdiness",
+	"item.minecraft.potion.effect.sturdiness_strong": "Potion of Sturdiness"
 	
 }
